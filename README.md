@@ -40,8 +40,6 @@ XRD Compare 1.0.1/
 │
 ├── plots/                        # Stores the generated plots
 |
-├── raw_xy_data/
-│   └── your_data.xy       # XRD data to be analyzed
 |
 ├── README.txt             # Documentation for the project.
 ├── LICENSE     
