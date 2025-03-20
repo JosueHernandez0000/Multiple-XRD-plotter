@@ -18,7 +18,7 @@ For questions, feature requests, bug reports, or collaboration opportunities, pl
 
 ---
 ## 2. Functionality
-1. **Plots multiple XRD data in the same plot**: Plots experimental data, must be in .xy format.
+1. **Plots multiple XRD data in the same plot**: Plots experimental data, all files must be in .xy format and stored in the same folder `xy_data`.
 
 
 ## 3. Main Outputs
@@ -40,6 +40,8 @@ XRD Compare 1.0.1/
 │
 ├── plots/                        # Stores the generated plots
 |
+├── raw_xy_data/
+│   └── your_data.xy       # XRD data to be analyzed
 |
 ├── README.txt             # Documentation for the project.
 ├── LICENSE     
