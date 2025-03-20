@@ -22,10 +22,8 @@ This repository contains a Python-based standalone executable for comparing mult
 ## 3. Main Outputs
 The code is meant to be a quick and easy way to plot and visualize experimental XRD data. The main outputs of the program is:
 
-
-- XRD spectrum with detected peaks:
 <div align="center">
-   <img src="plots/XRD_comparison_example.png" alt="XRD with peak detection" width="500">
+   <img src="plots/XRD_comparison_example.png" alt="XRD_comparison_example" width="500">
 </div>
 
 
