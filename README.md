@@ -58,7 +58,7 @@ XRD Compare 1.0.1/
 ### Adding more reference patterns
 - The crystallographic information (peak position, peak intensity and miller indices) of the current reference patterns is stored in `reference_patterns.xlsx`. Information was obtained from the Crystallographic Open Database.
 - This project does not uses the miller indices, so you could potentially omit this information when adding more reference patterns
--    You can add more reference patterns by simply:
+- You can add more reference patterns by simply:
    - Create a new sheet in the Excel file
    - Rename the sheet to match the name of your reference patterns
    - Fill in the Excel sheet with the crystallographic information (please follow the same structure and column names as in the current file). 
