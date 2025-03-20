@@ -5,6 +5,8 @@
 
 This repository contains a Python-based standalone executable for comparing multiple powder X-ray Diffraction (XRD) data. The program focuses on easy and fast visualization of the experimental data.
 
+For questions, feature requests, bug reports, or collaboration opportunities, please contact the [**developer**](https://github.com/JosueHernandez0000). If you found this tool helpful, you can show your support by: [**Buying me a coffee!**](https://buymeacoffee.com/josue.hernandez) Every coffee helps me stay awake to keep improving the tool, adding new features, and providing you with even better analysis capabilities.
+
 ### Table of Contents
 1. [Overview](#overview)
 2. [Functionality](#functionality)
@@ -20,7 +22,7 @@ This repository contains a Python-based standalone executable for comparing mult
 
 
 ## 3. Main Outputs
-The code is meant to be a quick and easy way to plot and visualize experimental XRD data. The main outputs of the program is:
+The code is meant to be a quick and easy way to plot and visualize experimental XRD data. The main output of the program is:
 
 <div align="center">
    <img src="plots/XRD_comparison_example.png" alt="XRD_comparison_example" width="500">
@@ -54,7 +56,11 @@ XRD Compare 1.0.1/
 ## 5. Technical Details
 
 ### Adding more reference patterns
-- 
+- The crystallographic information (peak position, peak intensity and miller indices) of the current reference patterns is stored in `reference_patterns.xlsx`. Information was obtained from the Crystallographic Open Database. You can add more reference patterns by simply:
+   - Create a new sheet in the Excel file
+   - Rename the sheet to match the name of your reference patterns
+   - Fill in the Excel sheet with the crystallographic information (please follow the same structure and column names as in the current file). 
+- Not following these instructions to add a new reference pattern will crash the program.
 
 ## 6. License
 
