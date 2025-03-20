@@ -32,7 +32,7 @@ The code is meant to be a quick and easy way to plot and visualize experimental 
 ## 4. How to Use
 Follow these steps to use the software:
 1. **Clone the repository to your own machine**
-2. **Make sure the following foler structure is followed**:
+2. **Make sure the following folder structure is followed**:
 ```
 XRD Compare 1.0.1/
 ├── reference_patterns/  
@@ -45,7 +45,7 @@ XRD Compare 1.0.1/
 |
 ├── README.txt             # Documentation for the project.
 ├── LICENSE     
-└── Powder_XRD_VA.exe      # Standalone .exe file
+└── XRD_compare.exe      # Standalone .exe file
 ```
 
 3. **Run the .exe file**
